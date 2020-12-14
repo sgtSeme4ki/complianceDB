@@ -38,3 +38,4 @@ docker exec -it compliance_db_1 bash
 -Docker weil CI/CD<br>
 -automatische Eintragung per Programm?<br>
 -MySQL Excel Add-in?<br>
+-Adminer Support?
