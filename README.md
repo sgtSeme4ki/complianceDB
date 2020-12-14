@@ -28,13 +28,13 @@ docker exec -it compliance_db_1 bash
 
 ### Randnotizen
 
--ER-Notation um gleich 2. Normalisierung zu erreichen
--Ein kann mehrere Vorfälle haben
--Jeder Vorfall gehört zu einer Kategorie, ID steht gleichzeitig für Schwere, besitzt auch eine Gewichtung
--Ein Vorfall kann mehreren Kategorien zugehörig sein, z. B. Datenverlust, Lahmlegung des Systems, etc
--Ein Vorfall muss mindestens zu einer Kategorie gehören
--Teilung in Teilvorfälle -> einfacher für Berechnung
--Kategorie sollt nicht geupdatet werden
--Docker weil CI/CD
--automatische Eintragung per Programm?
--MySQL Excel Add-in?
+-ER-Notation um gleich 2. Normalisierung zu erreichen<br>
+-Ein kann mehrere Vorfälle haben<br>
+-Jeder Vorfall gehört zu einer Kategorie, ID steht gleichzeitig für Schwere, besitzt auch eine Gewichtung<br>
+-Ein Vorfall kann mehreren Kategorien zugehörig sein, z. B. Datenverlust, Lahmlegung des Systems, etc<br>
+-Ein Vorfall muss mindestens zu einer Kategorie gehören<br>
+-Teilung in Teilvorfälle -> einfacher für Berechnung<br>
+-Kategorie sollt nicht geupdatet werden<br>
+-Docker weil CI/CD<br>
+-automatische Eintragung per Programm?<br>
+-MySQL Excel Add-in?<br>
