@@ -1,0 +1,30 @@
+version: '3.1'
+
+services:
+
+ db:
+  image: mysql
+  restart: always
+  environment:
+   MYSQL_ROOT_PASSWORD: dasAuto
+   MYSQL_DATABASE: complianceDB
+  ports:
+    - "3307:3306"
+  volumes:
+    - ./init:/docker-entrypoint-initdb.d
+##mysql:
+## container_name: compliancedb_container
+## build:
+##  context: .
+##  dockerfile: Dockerfile
+## environment:
+##  - MYSQL_DATABASES=compliancedb
+##  - MYSQL_ROOT_PASSWORD=injection
+##  - MYSQL_HOST=localhost
+##  - MYSQL_USER=volkswagen
+##  - MYSQL_PASSWORD=dasAuto
+##  - MYSQL_MY_DATABASE=compliancedb
+## ports:
+##  - "33306:3306"
+## volumes:
+##  - ./volumes/mysql:/var/lib/mysql
