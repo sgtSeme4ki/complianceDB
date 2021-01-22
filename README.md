@@ -9,7 +9,7 @@
 3. starten mit: 
 docker exec -it compliancedb_db_1 bash 
 
-4. mysql -p
+4. mysql -p  
 	password: dasAuto
 
 5. use complianceDB;
