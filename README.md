@@ -2,7 +2,7 @@
 
 ## Start Container first time
 
-1. command: "sudo docker build -t compliance . " in ./compliance
+1. command: "sudo docker build -t compliance . " in Verzeichnis ./compliance
 
 2. sudo docker-compose up -d
 
