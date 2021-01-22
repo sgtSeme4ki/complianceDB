@@ -4,7 +4,7 @@
 
 1. command: "sudo docker build -t compliance . " in ./compliance
 
-2. sudo docker-compose up
+2. sudo docker-compose up -d
 
 3. starten mit: 
 docker exec -it compliancedb_db_1 bash 
