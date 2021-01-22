@@ -1,7 +1,7 @@
 drop table if exists dienstleister;
 drop table if exists risiko;
 drop table if exists steuerungsmaßnahme;
-drop table if exists gefährdung;
+drop table if exists gefaehrdung;
 drop table if exists steuerung;
 
 drop table if exists dienstleisterart;
@@ -45,7 +45,7 @@ create table if not exists typisierung(
 		references dienstleisterart(dienstleisterart_id)
 		);
 		
-create table if not exists gefährdung(
+create table if not exists gefaehrdung(
 	dienstleisterart_id int not null, 
 	risiko_id int not null, 
 	primary key (dienstleisterart_id, risiko_id),
