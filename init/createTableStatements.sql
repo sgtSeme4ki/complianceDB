@@ -7,6 +7,8 @@ drop table if exists steuerung;
 drop table if exists dienstleisterart;
 drop table if exists dienstleisterart_risiko;
 
+use complianceDB;
+
 create table if not exists dienstleister(
 	dienstleister_id int auto_increment primary key, 
 	dienstleister_name varchar(255) not null unique,
