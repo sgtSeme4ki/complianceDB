@@ -7,18 +7,18 @@
 2. sudo docker-compose up
 
 3. starten mit: 
-docker exec -it compliance_db_1 bash 
+docker exec -it compliancedb_db_1 bash 
 
 4. mysql -p
 	password: dasAuto
 
-5. use compliance_db;
+5. use complianceDB;
 
 
 ## Reset Container
 
-1. docker stop compliance_db_1
-2. docker rm -f compliance_db_1
+1. docker stop compliancedb_db_1
+2. docker rm -f compliancedb_db_1
 3. execute steps from Start container
 
 ## How to add SqlScripts:
