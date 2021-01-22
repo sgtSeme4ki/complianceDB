@@ -1,6 +1,6 @@
 drop table if exists dienstleister;
 drop table if exists risiko;
-drop table if exists steuerungsmaßnahme;
+drop table if exists steuerungsmassnahme;
 drop table if exists gefaehrdung;
 drop table if exists steuerung;
 
@@ -22,7 +22,7 @@ create table if not exists risiko(
 	bedeutung int not null
 	);
 	
-create table if not exists steuerungsmaßnahme(
+create table if not exists steuerungsmassnahme(
 	steuerungsmaßnahme_id int auto_increment primary key, 
 	steuerungsmaßnahme_name varchar(255) not null unique, 
 	effizienz decimal(2, 1) not null,
@@ -66,5 +66,5 @@ create table if not exists steuerung(
 		);
 
 
-alter table steuerungsmaßnahme add constraint intervall check((effizienz <= 1 and effizienz >= 0.1) and (bedeutung <= 1 and bedeutung >= 0.1)
+alter table steuerungsmassnahme add constraint intervall check((effizienz <= 1 and effizienz >= 0.1) and (bedeutung <= 1 and bedeutung >= 0.1)
 );
