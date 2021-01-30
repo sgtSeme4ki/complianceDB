@@ -1,11 +1,19 @@
+-- entities
 drop table if exists dienstleister;
 drop table if exists risiko;
 drop table if exists steuerungsmassnahme;
-drop table if exists gefaehrdung;
-drop table if exists steuerung;
 
 drop table if exists dienstleisterart;
+drop table if exists bewertung_steuerungsmaßnahme;
+drop table if exists bewertung_risiko;
+
+drop table if exists ergebnis;
+
+-- relationship tables
+
 drop table if exists dienstleisterart_risiko;
+drop table if exists gefaehrdung;
+drop table if exists steuerung;
 
 use complianceDB;
 
