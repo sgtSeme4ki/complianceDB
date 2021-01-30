@@ -106,7 +106,3 @@ create table if not exists steuerung(
 	foreign key (steuerungsmassnahme_id)
 		references steuerungsmaßnahme(steuerungsmassnahme_id)
 		);
-
-
-alter table steuerungsmassnahme add constraint intervall check((effizienz <= 1 and effizienz >= 0.1) and (bedeutung <= 1 and bedeutung >= 0.1)
-);
