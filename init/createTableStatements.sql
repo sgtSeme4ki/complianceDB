@@ -43,11 +43,19 @@ create table if not exists dienstleisterart(
 	);
 	
 create table if not exists bewertung_steuerungsmassnahme(
-	
+
 	);
 	
 create table if not exists bewertung_risiko(
-
+	int risiko_id,
+	int dienstleister_id,
+	primary key (risiko_id, dienstleister_id),
+	foreign key (dienstleister_id)
+		references dienstleister(dienstleister_id),
+	foreign key (risiko_id)
+		references risiko(risiko_id),
+	int wahrscheinlichkeit,
+	int bedeutung
 	);
 	
 create table if not exists ergebnis(
