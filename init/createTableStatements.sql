@@ -31,8 +31,8 @@ create table if not exists risiko(
 	);
 	
 create table if not exists steuerungsmassnahme(
-	steuerungsmaßnahme_id int auto_increment primary key, 
-	steuerungsmaßnahme_name varchar(255) not null unique, 
+	steuerungsmassnahme_id int auto_increment primary key, 
+	steuerungsmassnahme_name varchar(255) not null unique, 
 	effizienz decimal(2, 1) not null,
 	bedeutung decimal(2, 1) not null
 	);
@@ -43,7 +43,15 @@ create table if not exists dienstleisterart(
 	);
 	
 create table if not exists bewertung_steuerungsmassnahme(
-
+	int steuerungsmassnahme_id,
+	int dienstleister_id,
+	primary key (steuerungsmassnahme_id, dienstleister_id),
+	foreign key (dienstleister_id)
+		references dienstleister(dienstleister_id),
+	foreign key (steuerungsmassnahme_id)
+		references steuerungsmassnahme(steuerungsmassnahme_id),
+	int effizienz,
+	int bedeutung
 	);
 	
 create table if not exists bewertung_risiko(
@@ -85,12 +93,12 @@ create table if not exists gefaehrdung(
 
 create table if not exists steuerung(
 	risiko_id int not null,
-	steuerungsmaßnahme_id int not null,
-	primary key (risiko_id, steuerungsmaßnahme_id),
+	steuerungsmassnahme_id int not null,
+	primary key (risiko_id, steuerungsmassnahme_id),
 	foreign key (risiko_id)
 		references risiko(risiko_id),
-	foreign key (steuerungsmaßnahme_id)
-		references steuerungsmaßnahme(steuerungsmaßnahme_id)
+	foreign key (steuerungsmassnahme_id)
+		references steuerungsmaßnahme(steuerungsmassnahme_id)
 		);
 
 
