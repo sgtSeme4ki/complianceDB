@@ -4,7 +4,7 @@ drop table if exists risiko;
 drop table if exists steuerungsmassnahme;
 
 drop table if exists dienstleisterart;
-drop table if exists bewertung_steuerungsmaßnahme;
+drop table if exists bewertung_steuerungsmassnahmenahme;
 drop table if exists bewertung_risiko;
 
 drop table if exists ergebnis;
@@ -40,6 +40,18 @@ create table if not exists steuerungsmassnahme(
 create table if not exists dienstleisterart(
 	dienstleisterart_id int auto_increment primary key,
 	dienstleister_name varchar(255) not null unique
+	);
+	
+create table if not exists bewertung_steuerungsmassnahme(
+	
+	);
+	
+create table if not exists bewertung_risiko(
+
+	);
+	
+create table if not exists ergebnis(
+
 	);
 
 -- Relationships
