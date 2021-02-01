@@ -20,7 +20,6 @@ use complianceDB;
 create table if not exists dienstleister(
 	dienstleister_id int auto_increment primary key, 
 	dienstleister_name varchar(255) not null unique,
-	kategorie varchar(255) not null
 	);
 	
 create table if not exists risiko(
