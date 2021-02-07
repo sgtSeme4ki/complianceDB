@@ -38,7 +38,7 @@ create table if not exists steuerungsmassnahme(
 	
 create table if not exists dienstleisterart(
 	dienstleisterart_id int auto_increment primary key,
-	dienstleister_name varchar(255) not null unique
+	dienstleisterart_name varchar(255) not null unique
 	);
 	
 create table if not exists bewertung_steuerungsmassnahme(
