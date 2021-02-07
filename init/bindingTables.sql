@@ -8,6 +8,8 @@
 -- 7 = CS Consulting
 -- 8 = Softwareentwicklung
 
+use complianceDB;
+
 insert into gefaehrdung(dienstleisterart_id, risiko_id)
 values(1, 1);
 
@@ -42,41 +44,41 @@ values(1, 10);
 
 -- steuerungsmassnahme - risiko
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(1, 1);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(1, 2);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(2, 3);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(2, 4);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(3, 5);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(4, 6);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(5, 7);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(5, 8);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(6, 7);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(7, 7);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(8, 7);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(9, 9);
 
-insert into steuerungsmassnahme(steuerungsmassnahme_id, risiko_id)
+insert into steuerung(steuerungsmassnahme_id, risiko_id)
 values(10, 10);

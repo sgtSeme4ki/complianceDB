@@ -4,7 +4,7 @@ insert into risiko(risiko_name)
 values('Verlust vertraulicher Informationen durch unvollständige Erfassung der physischen Assets (insb. Notebooks, Tablets, Smartphones)');
 
 insert into risiko(risiko_name)
-values('Manipulation/Kopie/Modifizierung oder Verlust von Daten durch unzureichende Klassifizierung der Assets');
+values(`Manipulation/Kopie/Modifizierung oder Verlust von Daten durch unzureichende Klassifizierung der Assets`);
 
 insert into risiko(risiko_name)
 values('Sicherheitsrisiko durch fehlerhaften Freigabeprozess für den Einsatz von inzubetrieb-nehmender Hardware');
@@ -84,5 +84,5 @@ values('Verlust von Datenintegrität durch gemeinsam genutzte Netzumgebungen mit
 insert into risiko(risiko_name)
 values('Informationsverlust durch unvollständige oder nicht gültige Verzeichnisse (Name, Adresse,.. des Dienstleister/Lieferanten)');
 
-insert into risiko(risiko_name);
+insert into risiko(risiko_name)
 values('Unzureichende Überwachung der Einhaltung der Anforderungen der Dienstleister');

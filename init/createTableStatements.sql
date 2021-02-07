@@ -24,16 +24,12 @@ create table if not exists dienstleister(
 	
 create table if not exists risiko(
 	risiko_id int auto_increment primary key, 
-	risiko_name varchar(255) not null unique,
-	wahrscheinlichkeit int not null,
-	bedeutung int not null
+	risiko_name varchar(255) not null unique
 	);
 	
 create table if not exists steuerungsmassnahme(
 	steuerungsmassnahme_id int auto_increment primary key, 
-	steuerungsmassnahme_name varchar(255) not null unique, 
-	effizienz decimal(2, 1) not null,
-	bedeutung decimal(2, 1) not null
+	steuerungsmassnahme_name varchar(255) not null unique
 	);
 	
 create table if not exists dienstleisterart(

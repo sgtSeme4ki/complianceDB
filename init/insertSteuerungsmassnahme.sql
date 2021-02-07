@@ -1,3 +1,5 @@
+use complianceDB;
+
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Log-Files: Automatische Erfassung der Assets und dadurch direkte Dokumentation von Veränderungen an der Datenbank');
 
