@@ -132,9 +132,6 @@ insert into dienstleisterart(dienstleisterart_name)
 values('IT-Sicherheit');
 
 insert into dienstleisterart(dienstleisterart_name)
-values('Software');
-
-insert into dienstleisterart(dienstleisterart_name)
 values('Implementierung und Betreuung von Drittanwendungen');
 
 insert into dienstleisterart(dienstleisterart_name)
