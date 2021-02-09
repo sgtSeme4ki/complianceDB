@@ -7,7 +7,7 @@
 2. sudo docker-compose up -d
 
 3. starten mit: 
-docker exec -it compliancedb_db_1 bash 
+docker exec -it compliancedb_db_1 bash
 
 4. mysql -p  
 	password: dasAuto

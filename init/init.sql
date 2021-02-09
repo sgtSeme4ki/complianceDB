@@ -66,7 +66,7 @@ create table if not exists ergebnis_risiko(
 	risikoprioritaetszahl int,
 	dienstleister_id int,
 	risiko_id int,
-	primary key (datum, dienstleister_id),
+	primary key (datum, dienstleister_id, risiko_id),
 	foreign key (dienstleister_id)
 		references dienstleister(dienstleister_id),
 	foreign key (risiko_id)
@@ -78,13 +78,14 @@ create table if not exists ergebnis_steuerung(
 	risiko_id int,
 	steuerungsprioritaetszahl int,
 	dienstleister_id int,
-	primary key (datum, dienstleister_id, risiko_id),
+	steuerungsmassnahme_id int,
+	primary key (datum, dienstleister_id, risiko_id, steuerungsmassnahme_id),
 	foreign key (dienstleister_id)
 		references ergebnis_risiko(dienstleister_id),
-	foreign key (datum)
-		references ergebnis_risiko(datum),
 	foreign key (risiko_id)
-		references ergebnis_risiko(risiko_id)
+		references ergebnis_risiko(risiko_id),
+	foreign key (steuerungsmassnahme_id)
+		references steuerungsmassnahme(steuerungsmassnahme_id)
 	);
 
 -- Relationships
