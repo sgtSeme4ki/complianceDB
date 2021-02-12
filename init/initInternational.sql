@@ -40,11 +40,14 @@ create table if not exists dienstleisterart(
 create table if not exists bewertung_steuerungsmassnahme(
 	steuerungsmassnahme_id int,
 	dienstleister_id int,
-	primary key (steuerungsmassnahme_id, dienstleister_id),
+	risiko_id int,
+	primary key (steuerungsmassnahme_id, dienstleister_id, risiko_id),
 	foreign key (dienstleister_id)
 		references dienstleister(dienstleister_id),
 	foreign key (steuerungsmassnahme_id)
 		references steuerungsmassnahme(steuerungsmassnahme_id),
+	foreign key (risiko_id)
+		references risiko_id(risiko_id),
 	effizienz int,
 	bedeutung int
 	);
