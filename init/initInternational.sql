@@ -144,16 +144,16 @@ insert into dienstleisterart(dienstleisterart_name)
 values('Softwareentwicklung');
 
 insert into risiko(risiko_name)
-values('Verlust vertraulicher Informationen durch unvollständige Erfassung der physischen Assets (insb. Notebooks, Tablets, Smartphones)');
+values('Verlust vertraulicher Informationen durch unvollstaendige Erfassung der physischen Assets (insb. Notebooks, Tablets, Smartphones)');
 
 insert into risiko(risiko_name)
 values('Manipulation/Kopie/Modifizierung oder Verlust von Daten durch unzureichende Klassifizierung der Assets');
 
 insert into risiko(risiko_name)
-values('Sicherheitsrisiko durch fehlerhaften Freigabeprozess für den Einsatz von inzubetrieb-nehmender Hardware');
+values('Sicherheitsrisiko durch fehlerhaften Freigabeprozess fuer den Einsatz von inzubetrieb-nehmender Hardware');
 
 insert into risiko(risiko_name)
-values('Verlust von Daten durch mangelhafte Außerbetrieb-nahme von Hardware');
+values('Verlust von Daten durch mangelhafte Ausserbetrieb-nahme von Hardware');
 
 insert into risiko(risiko_name)
 values('Verlust der physischen Sicherheit durch ein mangelndes Sicherheitskonzept');
@@ -162,7 +162,7 @@ insert into risiko(risiko_name)
 values('Verlust der gespeicherten Daten durch einen Komplettausfall eines Standortes');
 
 insert into risiko(risiko_name)
-values('Sicherheitsrisiko durch unzureichend geschützte bauliche Hülle (z.B. unberechtigter Zutritt, Feuer, Rauch, Wasser)');
+values('Sicherheitsrisiko durch unzureichend geschuetzte bauliche Huelle (z.B. unberechtigter Zutritt, Feuer, Rauch, Wasser)');
 
 insert into risiko(risiko_name)
 values('Manipulation/Kopie/Modifizierung oder Verlust von Daten durch den Zutritt Unbefugter');
@@ -171,10 +171,10 @@ insert into risiko(risiko_name)
 values('Verlust der gespeicherten Daten durch falsch eingestellte Betriebsparameter in der technischen Versorgung');
 
 insert into risiko(risiko_name)
-values('Personalausfall führt zum Kapazitätsengpass');
+values('Personalausfall fuehrt zum Kapazitaetsengpass');
 
 insert into risiko(risiko_name)
-values('IT-Ausfall führt zum Kapazitätsengpass');
+values('IT-Ausfall fuehrt zum Kapazitaetsengpass');
 
 insert into risiko(risiko_name)
 values('Softwareschwachstellen durch fehlende Schutz-mechanismen');
@@ -183,117 +183,117 @@ insert into risiko(risiko_name)
 values('Datenverlust durch fehlende Datensicherung');
 
 insert into risiko(risiko_name)
-values('Gesicherte Daten im Fall einer notwendigen Wiederherstellung könnten nicht nutzbar sein');
+values('Gesicherte Daten im Fall einer notwendigen Wiederherstellung koennten nicht nutzbar sein');
 
 insert into risiko(risiko_name)
-values('Ausfall von Datenquellen für Protokollierungs-daten');
+values('Ausfall von Datenquellen fuer Protokollierungs-daten');
 
 insert into risiko(risiko_name)
-values('Ausspähen von Informationen (Spionage)');
+values('Ausspaehen von Informationen (Spionage)');
 
 insert into risiko(risiko_name)
-values('Diebstahl von Geräten, Datenträgern und Dokumenten');
+values('Diebstahl von Geraeten, Datentraegern und Dokumenten');
 
 insert into risiko(risiko_name)
 values('Unbefugtes Eindringen in IT-Systemen');
 
 insert into risiko(risiko_name)
-values('Ausfall von Geräten oder Systemen');
+values('Ausfall von Geraeten oder Systemen');
 
 insert into risiko(risiko_name)
-values('Fehlerhafte Nutzung oder Administration von Geräten und Systemen');
+values('Fehlerhafte Nutzung oder Administration von Geraeten und Systemen');
 
 insert into risiko(risiko_name)
-values('Identitätsdiebstahl');
+values('Identitaetsdiebstahl');
 
 insert into risiko(risiko_name)
-values('Kompromittierung sensibler Daten bei Übertragung / Speicherung');
+values('Kompromittierung sensibler Daten bei Uebertragung / Speicherung');
 
 insert into risiko(risiko_name)
-values('Schlüssel-Kompromittierung gegenüber Dritten');
+values('Schluessel-Kompromittierung gegenueber Dritten');
 
 insert into risiko(risiko_name)
-values('Fehlerhafte Schlüsselgenerierung');
+values('Fehlerhafte Schluesselgenerierung');
 
 insert into risiko(risiko_name)
-values('Beitreten von unbekannten (physischen oder virtuellen) Geräten zum physischen oder virtuellen Netz des Dienstleisters');
+values('Beitreten von unbekannten (physischen oder virtuellen) Geraeten zum physischen oder virtuellen Netz des Dienstleisters');
 
 insert into risiko(risiko_name)
-values('Mögliche Verbindung zu nicht-vertrauenswürdigen Netzwerken');
+values('Moegliche Verbindung zu nicht-vertrauenswuerdigen Netzwerken');
 
 insert into risiko(risiko_name)
-values('Verlust von Datenintegrität durch gemeinsam genutzte Netzumgebungen mit anderen Cloud-Kunden');
+values('Verlust von Datenintegritaet durch gemeinsam genutzte Netzumgebungen mit anderen Cloud-Kunden');
 
 insert into risiko(risiko_name)
-values('Informationsverlust durch unvollständige oder nicht gültige Verzeichnisse (Name, Adresse,.. des Dienstleister/Lieferanten)');
+values('Informationsverlust durch unvollstaendige oder nicht gueltige Verzeichnisse (Name, Adresse,.. des Dienstleister/Lieferanten)');
 
 insert into risiko(risiko_name)
-values('Unzureichende Überwachung der Einhaltung der Anforderungen der Dienstleister');
+values('Unzureichende Ueberwachung der Einhaltung der Anforderungen der Dienstleister');
 
 -- ----------------------------------------------------------------------------------------------------------------------------------------
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Log-Files: Automatische Erfassung der Assets und dadurch direkte Dokumentation von Veränderungen an der Datenbank');
+values('Log-Files: Automatische Erfassung der Assets und dadurch direkte Dokumentation von Veraenderungen an der Datenbank');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Digitales Ticket-System: Digitale Dokumentation, um kontinuierliche Prüfung zu ermöglichen; im jeweiligen Ticket müssen autorisiertes Personal sowie die Verifikation der Konfiguration hinterlegt sein');
+values('Digitales Ticket-System: Digitale Dokumentation, um kontinuierliche Pruefung zu ermoeglichen; im jeweiligen Ticket muessen autorisiertes Personal sowie die Verifikation der Konfiguration hinterlegt sein');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Der IT Dienstleister hat eine Sicherheitsrichtlinie ausgearbeitet, nach der vorschriftsmäßig gearbeitet wird.');
+values('Der IT Dienstleister hat eine Sicherheitsrichtlinie ausgearbeitet, nach der vorschriftsmaessig gearbeitet wird.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Es findet eine regelmäßige Redundanzprüfung statt, welche protokolliert wird.');
+values('Es findet eine regelmaessige Redundanzpruefung statt, welche protokolliert wird.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Der Dienstleister hat ein funktionierendes Zutrittskontrollsystem, welches es ermöglicht die Zutritts-Logs auszuwerten.');
+values('Der Dienstleister hat ein funktionierendes Zutrittskontrollsystem, welches es ermoeglicht die Zutritts-Logs auszuwerten.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Die Räumlichkeiten werden mittels einer Videoüberwachung geschützt.');
+values('Die Raeumlichkeiten werden mittels einer Videoueberwachung geschuetzt.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Es wird Sicherheitspersonal (mind. 2 Personen) zum Schutz der baulichen Hülle beschäftigt.');
+values('Es wird Sicherheitspersonal (mind. 2 Personen) zum Schutz der baulichen Huelle beschaeftigt.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Eine Einbruchmeldeanlage ist installiert, so dass Unregelmäßigkeiten schnell gemeldet werden.');
+values('Eine Einbruchmeldeanlage ist installiert, so dass Unregelmaessigkeiten schnell gemeldet werden.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Es gibt regelmäßige Kontrollen der Betriebsparameter. Diese werden in Logs dokumentiert um so Veränderungen festzustellen.');
+values('Es gibt regelmaessige Kontrollen der Betriebsparameter. Diese werden in Logs dokumentiert um so Veraenderungen festzustellen.');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Prognose von zukünftigen Kapazitätsanforderungen');
+values('Prognose von zukuenftigen Kapazitaetsanforderungen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Self-Service-Portal zur Überwachung der Kapazität und der Verfügbarkeit');
+values('Self-Service-Portal zur Ueberwachung der Kapazitaet und der Verfuegbarkeit');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Brand- und Rauchschutzmaßnahmen sowie Brandfrüherkennung und Löschsystem als Schutz vor Feuer und dessen Auswirkungen; Zugangskontrollen und Videoüberwachungen als Schutz vor materiellen Schäden');
+values('Brand- und Rauchschutzmassnahmen sowie Brandfrueherkennung und Loeschsystem als Schutz vor Feuer und dessen Auswirkungen; Zugangskontrollen und Videoueberwachungen als Schutz vor materiellen Schaeden');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Energieversorgung aus mehreren Umspannwerken und redundanter unterbrechungsfreier Stromversorgung als Schutz vor Stromausfall; zusätzliche Notversorgung mittels Dieselgenerator');
+values('Energieversorgung aus mehreren Umspannwerken und redundanter unterbrechungsfreier Stromversorgung als Schutz vor Stromausfall; zusaetzliche Notversorgung mittels Dieselgenerator');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Effiziente und moderne Klimatisierung als Schutz vor Überhitzung');
+values('Effiziente und moderne Klimatisierung als Schutz vor Ueberhitzung');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Redundante Internetanbindung; doppelte Server');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Räumlich getrennte Rechenzentrums-Standorte um die Risiken eines IT-Ausfalls durch lokale Schadens-ereignisse zu minimieren');
+values('Raeumlich getrennte Rechenzentrums-Standorte um die Risiken eines IT-Ausfalls durch lokale Schadens-ereignisse zu minimieren');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelmäßige Prüfung und Zertifizierung von IT-Prozessen und -Systemen');
+values('Regelmaessige Pruefung und Zertifizierung von IT-Prozessen und -Systemen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Nutzung systemspezifischer Schutzmechanismen (Betrieb von Schutzprogrammen auf Systemkomponenten und für Endgeräte der Mitarbeiter)');
+values('Nutzung systemspezifischer Schutzmechanismen (Betrieb von Schutzprogrammen auf Systemkomponenten und fuer Endgeraete der Mitarbeiter)');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Protokolle oder zusammengefassten Ergebnisse in einem Self-Service Portal zur Überwachung der Datensicherung');
+values('Protokolle oder zusammengefassten Ergebnisse in einem Self-Service Portal zur Ueberwachung der Datensicherung');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelmäßige Tests der Wiederherstellungsverfahren (Vorgaben zur maximal tolerierbaren Ausfallzeit und zum maximal zulässigen Datenverlust werden so geprüft)');
+values('Regelmaessige Tests der Wiederherstellungsverfahren (Vorgaben zur maximal tolerierbaren Ausfallzeit und zum maximal zulaessigen Datenverlust werden so geprueft)');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Entwicklung eines Authentisierungskonzeptes für IT-Systeme und Anwendungen');
+values('Entwicklung eines Authentisierungskonzeptes fuer IT-Systeme und Anwendungen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Einsatz eines zentralen Authentisierungsdienstes');
@@ -308,58 +308,58 @@ insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Vergabe von Zugriffsrechten');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelung des Passwortgebrauchs/der Passwortqualität');
+values('Regelung des Passwortgebrauchs/der Passwortqualitaet');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Mehr-Faktor-Authentisierung');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Notfallvorsorge für das Identitäts- und Berechtigungsmanagement-Systemen');
+values('Notfallvorsorge fuer das Identitaets- und Berechtigungsmanagement-Systemen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Einweisung aller Mitarbeiter in den Umgang mit Authentisierungsverfahren und – mechanismen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelmäßige Kontrolle der kryptografischen Sicherheitsstandards der Erzeugung, Veränderung und Übermittlung der Schlüssel');
+values('Regelmaessige Kontrolle der kryptografischen Sicherheitsstandards der Erzeugung, Veraenderung und Uebermittlung der Schluessel');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('kontinuierliche Prüfung ob die Verschlüsselung aktiv ist und die genehmigten Ausnahmen eingehalten werden');
+values('kontinuierliche Pruefung ob die Verschluesselung aktiv ist und die genehmigten Ausnahmen eingehalten werden');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelmäßige Kontrollen des Systemzustandes auf Kompromittierung und Dokumentation von Unregelmäßigkeiten');
+values('Regelmaessige Kontrollen des Systemzustandes auf Kompromittierung und Dokumentation von Unregelmaessigkeiten');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Dokumentation, Kommunikation und Bereitstellung von Richtlinien und Anweisungen mit technischen und organisatorischen Maßnahmen zum Schutz der Datenübertragung');
+values('Dokumentation, Kommunikation und Bereitstellung von Richtlinien und Anweisungen mit technischen und organisatorischen Massnahmen zum Schutz der Datenuebertragung');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Geregelter Umgang mit kompromittierten/veralteten Schlüsseln');
+values('Geregelter Umgang mit kompromittierten/veralteten Schluesseln');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Dokumentation und Kommunikation von Ausnahmen zur Verschlüsselung von Daten gemäß eines geregelten Verfahrens sowie Abstimmung des Verfahrens mit Kunden');
+values('Dokumentation und Kommunikation von Ausnahmen zur Verschluesselung von Daten gemaess eines geregelten Verfahrens sowie Abstimmung des Verfahrens mit Kunden');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Dokumentation und Implementierung technischer Maßnahmen zur Sicherstellung des Nicht-Beitretens von unbekannten Geräten in das physische/virtuelle Netz');
+values('Dokumentation und Implementierung technischer Massnahmen zur Sicherstellung des Nicht-Beitretens von unbekannten Geraeten in das physische/virtuelle Netz');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Geeignete Kontrollen zur zeitnahen Identifikation und Reaktion von/auf netzbasierte Angriffe und Dokumentation & Kommunikation dieser');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Verwendung eines übergreifenden SIEM-Systems zur Initialisierung erforderlicher (Gegen-)Maßnahmen');
+values('Verwendung eines uebergreifenden SIEM-Systems zur Initialisierung erforderlicher (Gegen-)Massnahmen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Separierung Netze nach Vertrauen in verschiedene Netzbereiche');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Konzeption und Konfiguration physischer und virtualisierter Netzumgebungen zur Beschränkung und Überwachung von Verbindungen');
+values('Konzeption und Konfiguration physischer und virtualisierter Netzumgebungen zur Beschraenkung und Ueberwachung von Verbindungen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelmäßige risikoorientierte Überprüfung der Konzepte zur Überwachung der Verbindung zu (nicht) vertrauenswürdigen Netzen');
+values('Regelmaessige risikoorientierte Ueberpruefung der Konzepte zur Ueberwachung der Verbindung zu (nicht) vertrauenswuerdigen Netzen');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Vorhandensein Konzept zur Segregation des Datenverkehrs auf Netzebene & Dokumentation dieses Konzepts');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Zertifizierte Prüfung der Sicherheit über sachverständige Dritte');
+values('Zertifizierte Pruefung der Sicherheit ueber sachverstaendige Dritte');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Anforderungen an Qualifikation und Kompetenz der Dienstleister');
@@ -368,10 +368,10 @@ insert into steuerungsmassnahme(steuerungsmassnahme_name)
 values('Genaue Beschreibung, dessen was bereitzustellen ist');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Vereinbarungen zur Leistungsüberwachung der Dienstleister');
+values('Vereinbarungen zur Leistungsueberwachung der Dienstleister');
 
 insert into steuerungsmassnahme(steuerungsmassnahme_name)
-values('Regelmäßige Überprüfung der Einhaltung der Anforderungen');
+values('Regelmaessige Ueberpruefung der Einhaltung der Anforderungen');
 
 -- CC
 
