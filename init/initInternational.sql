@@ -47,7 +47,7 @@ create table if not exists bewertung_steuerungsmassnahme(
 	foreign key (steuerungsmassnahme_id)
 		references steuerungsmassnahme(steuerungsmassnahme_id),
 	foreign key (risiko_id)
-		references risiko_id(risiko_id),
+		references risiko(risiko_id),
 	effizienz int,
 	bedeutung int
 	);
