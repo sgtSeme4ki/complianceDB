@@ -45,9 +45,9 @@ create table if not exists bewertung_steuerungsmassnahme(
 	foreign key (dienstleister_id)
 		references dienstleister(dienstleister_id) on delete cascade,
 	foreign key (steuerungsmassnahme_id)
-		references steuerungsmassnahme(steuerungsmassnahme_id),
+		references steuerungsmassnahme(steuerungsmassnahme_id) on delete cascade,
 	foreign key (risiko_id)
-		references risiko(risiko_id), 
+		references risiko(risiko_id) on delete cascade,
 	effizienz int,
 	bedeutung int
 	);
@@ -59,7 +59,7 @@ create table if not exists bewertung_risiko(
 	foreign key (dienstleister_id)
 		references dienstleister(dienstleister_id) on delete cascade,
 	foreign key (risiko_id)
-		references risiko(risiko_id),
+		references risiko(risiko_id) on delete cascade,
 	wahrscheinlichkeit int,
 	bedeutung int
 	);
@@ -73,7 +73,7 @@ create table if not exists ergebnis_risiko(
 	foreign key (dienstleister_id)
 		references dienstleister(dienstleister_id) on delete cascade,
 	foreign key (risiko_id)
-		references risiko(risiko_id)
+		references risiko(risiko_id) on delete cascade
 	);
 	
 create table if not exists ergebnis_steuerung(
@@ -86,9 +86,9 @@ create table if not exists ergebnis_steuerung(
 	foreign key (dienstleister_id)
 		references ergebnis_risiko(dienstleister_id) on delete cascade,
 	foreign key (risiko_id)
-		references ergebnis_risiko(risiko_id),
+		references ergebnis_risiko(risiko_id) on delete cascade,
 	foreign key (steuerungsmassnahme_id)
-		references steuerungsmassnahme(steuerungsmassnahme_id)
+		references steuerungsmassnahme(steuerungsmassnahme_id) on delete cascade
 	);
 
 -- Relationships
@@ -99,7 +99,7 @@ create table if not exists typisierung(
 	foreign key (dienstleister_id)
 		references dienstleister(dienstleister_id) on delete cascade,
 	foreign key (dienstleisterart_id)
-		references dienstleisterart(dienstleisterart_id)
+		references dienstleisterart(dienstleisterart_id) on delete cascade
 		);
 		
 create table if not exists gefaehrdung(
@@ -109,7 +109,7 @@ create table if not exists gefaehrdung(
 	foreign key (dienstleisterart_id)
 		references dienstleisterart(dienstleisterart_id) on delete cascade,
 	foreign key (risiko_id)
-		references risiko(risiko_id)
+		references risiko(risiko_id) on delete cascade
 		);
 
 create table if not exists steuerung(
@@ -117,9 +117,9 @@ create table if not exists steuerung(
 	steuerungsmassnahme_id int not null,
 	primary key (risiko_id, steuerungsmassnahme_id),
 	foreign key (risiko_id)
-		references risiko(risiko_id),
+		references risiko(risiko_id) on delete cascade,
 	foreign key (steuerungsmassnahme_id)
-		references steuerungsmassnahme(steuerungsmassnahme_id)
+		references steuerungsmassnahme(steuerungsmassnahme_id) on delete cascade
 		);
 		
 insert into dienstleisterart(dienstleisterart_name)
